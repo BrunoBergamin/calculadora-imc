@@ -1,10 +1,12 @@
 # Calculadora de IMC em Java
 
+Status: projeto de pratica em Java puro.
+
 Projeto simples em Java com interface grafica via `JOptionPane` para calcular o IMC (Indice de Massa Corporal) a partir do peso e da altura informados pelo usuario.
 
 ## Visao geral
 
-Este projeto foi criado para praticar fundamentos de Java com foco em:
+Este e um exercicio de pratica para reforcar fundamentos de Java. A ideia aqui nao foi criar um sistema grande, e sim treinar um fluxo pequeno e completo:
 
 - leitura de dados com janelas simples
 - validacao de entrada
@@ -60,10 +62,18 @@ java -cp out program.Main
 
 ## O que foi praticado
 
+- Java puro, sem frameworks
 - organizacao basica de um programa Java
 - uso de `try/catch` para tratar erro de entrada
 - criacao de metodos para leitura, calculo, classificacao e exibicao de erro
 - aplicacao de regras de negocio simples com `if/else`
+
+## Limitacoes atuais
+
+- o projeto tem apenas uma classe principal
+- nao ha testes automatizados
+- a interface e propositalmente simples, focada em pratica
+- o tratamento de entrada ainda pode evoluir para aceitar mais formatos
 
 ## Melhorias futuras
 
